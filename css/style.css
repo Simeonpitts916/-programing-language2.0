@@ -1,0 +1,9 @@
+.container {
+    width: 500px;
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+.hidden {
+    display: none;
+}

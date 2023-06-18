@@ -1,6 +1,8 @@
 window.onload = (function() {
+    console.log("1")
     const form = document.querySelector("form");
-    form.onsubmit = (function(event){
+    console.log("2")
+    form.onsubmit = (function(event) {
         event.preventDefault();
        
         let food = document.getElementById("input[type=radio][name='quest1']:checked").value;
@@ -10,18 +12,16 @@ window.onload = (function() {
         let shoe = document.getElementById("input[type=radio][name='quest5']:checked").value;
 
         let result;
-        if (food === "a" && drink === "1" && stat === "1" && powere === "1" && shoe === "1") {
-            result = "javaScript";
+        if (food === "1" && drink === "1" && stat === "1" && powere === "1" && shoe === "1") {
+            result = "java";
         } else if (food === "2" && drink === "3" && stat === "2" && powere === "1" && shoe === "2") {
-            result = "javaScript";
+            result = "java";
         } else if (food === "3" && drink === "1" && stat === "1" && powere === "1" && shoe === "1") {
-            result = "javaScript";
+            result = "c#";
         } else (food === "1" && drink === "2" && stat === "3" && powere === "2" && shoe === "3"); {
-            result = "javaScript";
+            result = "python";
         }
         
         document.getElementById("answere").innerText = result
-
-        
     });
 });

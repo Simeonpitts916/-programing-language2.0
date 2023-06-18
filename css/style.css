@@ -1,17 +1,40 @@
-body{
-    margin: 0%;
-    margin-top: 0%;
-}
-
-.hidden{
-    display : none;
-}
-
 .container{
-    width:1280px;
-    height:768px;
+    text-align: center;
+    background-color: aqua;
 }
 
-.questions{
-    border: 300px;
+.food{
+    display: inline-block;
+    margin:.5em 10px ;
+    width :23%;
+    height: auto;
+    border-style: dashed;
+}
+.drink{
+    display: inline-block;
+    margin:.5em 10px ;
+    width :23%;
+    height: auto;
+    border-style: dashed;
+}
+.state{
+    display: inline-block;
+    margin:.5em 10px ;
+    width :23%;
+    height: auto;
+    border-style: dashed;
+}
+.powere{
+    display: inline-block;
+    margin:.5em 10px ;
+    width :23%;
+    height: auto;
+    border-style: dashed;
+}
+.shoe{
+    display: inline-block;
+    margin:.5em 10px ;
+    width :23%;
+    height: auto;
+    border-style: dashed;
 }

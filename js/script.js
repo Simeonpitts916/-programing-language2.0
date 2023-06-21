@@ -1,15 +1,13 @@
-window.onload = (function() {
-    console.log("1")
+window.onload = function() {
     const form = document.querySelector("form");
-    console.log("2")
     form.onsubmit = (function(event) {
         event.preventDefault();
        
-        let food = document.getElementById("input[type=radio][name='quest1']:checked").value;
-        let drink = document.getElementById("input[type=radio][name='quest2']:checked").value;
-        let stat = document.getElementById("input[type=radio][name='quest3']:checked").value;
-        let powere = document.getElementById("input[type=radio][name='quest4']:checked").value;
-        let shoe = document.getElementById("input[type=radio][name='quest5']:checked").value;
+        let food = document.querySelector("input[type=radio][name='quest1']:checked").value;
+        let drink = document.querySelector("input[type=radio][name='quest2']:checked").value;
+        let stat = document.querySelector("input[type=radio][name='quest3']:checked").value;
+        let powere = document.querySelector("input[type=radio][name='quest4']:checked").value;
+        let shoe = document.querySelector("input[type=radio][name='quest5']:checked").value;
 
         let result;
         if (food === "1" && drink === "1" && stat === "1" && powere === "1" && shoe === "1") {
@@ -24,4 +22,4 @@ window.onload = (function() {
         
         document.getElementById("answere").innerText = result
     });
-});
+}

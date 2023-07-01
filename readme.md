@@ -1,4 +1,4 @@
-# _Programing-language2.0_
+# _Programing-language_
 
 #### By _simeon pitts_
 
@@ -12,13 +12,14 @@
 
 ## Description
 
-here you will find 5 questions to find if java is the right one for you or if c#, python, is the right program for you.
+*here you will find 5 questions to find if java is the right one for you or if c#, python, is the right program for you.
+*then Open index.html in a web browser.
 
 ## Setup/Installation Requirements
-
+clone this repository to your local machine: $ git clone https://github.com/Simeonpitts916/-programing-language2.0.git
 
 ## Known Bugs
-WIP value is not working at the time 
+I have not set up a lot of the questions so some of the answers wont work 
 ## License
 
 MIT License.

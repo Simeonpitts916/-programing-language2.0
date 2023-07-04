@@ -16,7 +16,7 @@ window.onload = function() {
             result = "java";
         } else if (food === "3" && drink === "1" && stat === "1" && powere === "1" && shoe === "1") {
             result = "c#";
-        } else (food === "1" && drink === "2" && stat === "3" && powere === "2" && shoe === "3"); {
+        } else {
             result = "python";
         }
         

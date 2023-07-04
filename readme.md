@@ -6,22 +6,22 @@
 
 ## Technologies Used
 
-*javascript
-*html 
-*css
+* javascript
+* html 
+* css
 
 ## Description
 
-*here you will find 5 questions to find if java is the right one for you or if c#, python, is the right program for you.
-*then Open index.html in a web browser.
+* here you will find 5 questions to find if java is the right one for you or if c#, python, is the right program for you.
+*  then Open index.html in a web browser.
 
 ## Setup/Installation Requirements
-clone this repository to your local machine: $ git clone https://github.com/Simeonpitts916/-programing-language2.0.git
+* clone this repository to your local machine: `$ git clone https://github.com/Simeonpitts916/-programing-language2.0.git`
+* open index.html in your browser.
 
 ## Known Bugs
 I have not set up a lot of the questions so some of the answers wont work 
 ## License
-
 MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
